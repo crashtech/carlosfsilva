@@ -1,0 +1,90 @@
+/* Regular non-italic */
+@font-face {
+  font-family: Metropolis;
+  src: url('/assets/fonts/metropolis-thin.woff2') format('woff2'),
+       url('/assets/fonts/metropolis-thin.woff') format('woff2');
+  font-weight: 100;
+  font-style: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Metropolis;
+  src: url('/assets/fonts/metropolis-extralight.woff2') format('woff2'),
+       url('/assets/fonts/metropolis-extralight.woff') format('woff2');
+  font-weight: 200;
+  font-style: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Metropolis;
+  src: url('/assets/fonts/metropolis-light.woff2') format('woff2'),
+       url('/assets/fonts/metropolis-light.woff') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Metropolis;
+  src: url('/assets/fonts/metropolis-regular.woff2') format('woff2'),
+       url('/assets/fonts/metropolis-regular.woff') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Metropolis;
+  src: url('/assets/fonts/metropolis-medium.woff2') format('woff2'),
+       url('/assets/fonts/metropolis-medium.woff') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Metropolis;
+  src: url('/assets/fonts/metropolis-semibold.woff2') format('woff2'),
+       url('/assets/fonts/metropolis-semibold.woff') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Metropolis;
+  src: url('/assets/fonts/metropolis-bold.woff2') format('woff2'),
+       url('/assets/fonts/metropolis-bold.woff') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Metropolis;
+  src: url('/assets/fonts/metropolis-extrabold.woff2') format('woff2'),
+       url('/assets/fonts/metropolis-extrabold.woff') format('woff2');
+  font-weight: 800;
+  font-style: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Metropolis;
+  src: url('/assets/fonts/metropolis-black.woff2') format('woff2'),
+       url('/assets/fonts/metropolis-black.woff') format('woff2');
+  font-weight: 900;
+  font-style: normal;
+  font-stretch: normal;
+  font-display: swap;
+}

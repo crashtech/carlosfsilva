@@ -1,0 +1,53 @@
+article,
+a.article {
+  display: block;
+  margin: -1.5ex -2ex;
+  padding: 1.5ex 2ex;
+  border-radius: 1ex;
+  background-color: #26262600;
+  transition: background .2s;
+
+  &:hover, &:focus {
+    background-color: #262626ff;
+  }
+
+  time {
+    color: var(--line-color);
+    font-weight: 200;
+  }
+
+  header {
+    margin: .5ex 0 .25ex;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--white);
+  }
+
+  div.subtitle {
+    display: block;
+    font-weight: 800;
+    font-size: 1.15rem;
+    color: var(--gray);
+
+    span.right {
+      float: right;
+      font-weight: 400;
+      margin-left: 2ex;
+    }
+  }
+}
+
+a.article {
+  color: unset;
+  text-decoration: none;
+}
+
+dialog article {
+  margin: 0;
+  padding: 0;
+  background: unset;
+
+  &:hover, &:focus {
+    background: unset;
+  }
+}

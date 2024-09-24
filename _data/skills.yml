@@ -1,0 +1,131 @@
+---
+- title: Programming Languages
+  items:
+    - name: Ruby
+      rank: 5
+    - name: JavaScript
+      rank: 5
+    - name: SQL
+      rank: 5
+    - name: NodeJS
+      rank: 4
+    - name: C
+      rank: 4
+    - name: PHP
+      rank: 3
+    - name: Shell Script
+      rank: 3
+    - name: Python
+      rank: 2
+    - name: VB6 (VBA)
+      rank: 3
+    - name: VB.NET
+      rank: 3
+    - name: Java
+      rank: 2
+
+- title: Frameworks
+  items:
+    - name: Ruby on Rails
+      rank: 5
+    - name: Active Admin
+      rank: 5
+    - name: Hotwire
+      rank: 5
+    - name: Jekyll
+      rank: 4
+    - name: ReactJS
+      rank: 5
+    - name: VueJS
+      rank: 5
+    - name: Bootstrap
+      rank: 5
+    - name: Tailwind
+      rank: 5
+    - name: Semantic UI
+      rank: 5
+    - name: Material UI
+      rank: 3
+
+- title: Databases
+  items:
+    - name: PostgreSQL
+      rank: 5
+    - name: MySQL
+      rank: 5
+    - name: Redis
+      rank: 5
+    - name: MongoDB
+      rank: 3
+
+- title: Standards
+  items:
+    - name: HTML5
+      rank: 5
+    - name: CSS3
+      rank: 5
+    - name: CSS3
+      rank: 5
+    - name: HTTP
+      rank: 5
+    - name: Sass/Scss
+      rank: 5
+    - name: Less
+      rank: 3
+    - name: GraphQL
+      rank: 5
+    - name: JSON
+      rank: 5
+    - name: Regular Expressions
+      rank: 5
+    - name: OpenAI
+      rank: 4
+    - name: WebSocket
+      rank: 3
+
+- title: Tools
+  items:
+    - name: Git/GitHub
+      rank: 5
+    - name: Stripe
+      rank: 5
+    - name: Apache
+      rank: 5
+    - name: Nginx
+      rank: 5
+    - name: Sidekiq
+      rank: 4
+    - name: Postman
+      rank: 4
+    - name: Stripe
+      rank: 5
+    - name: Mailchimp
+      rank: 3
+    - name: Figma
+      rank: 3
+    - name: Photoshop
+      rank: 4
+    - name: Illustrator
+      rank: 3
+    - name: ImageMagick
+      rank: 3
+
+- title: Testing Tools
+  items:
+    - name: RSpec
+      rank: 5
+    - name: Selenium
+      rank: 4
+    - name: JUnit
+      rank: 3
+
+- title: Workflow Applications
+  items:
+    - name: GitHub Projects
+      rank: 5
+    - name: JIRA
+      rank: 5
+    - name: Trello
+      rank: 5
+    - name: Asana
+      rank: 4

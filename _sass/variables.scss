@@ -1,0 +1,31 @@
+:root {
+  // Typography
+  --body-font-family: Metropolis, "Helvetica Neue", Arial, sans-serif;
+  --mono-font-family: "SFMono-Regular", Menlo, Consolas, Monospace;
+  --root-font-size: 16px; // Base font-size for rems
+  --body-line-height: 1.5;
+  --heading-line-height: 1.75;
+
+  // Font size
+  --font-size-1: 0.7rem;
+  --font-size-2: 0.8rem;  //h6
+  --font-size-3: 1rem;    //h5
+  --font-size-4: 1.5rem;  //h4
+  --font-size-5: 2rem;    //h3
+  --font-size-6: 2.5rem;  //h2
+  --font-size-7: 3rem;    //h1
+
+  // Colors
+  --white: #ffffff;
+  --off-white: #e0e0e0;
+  --gray: #6a6b6a;
+  --red: #d43b2a;
+  --yellow: #ffc107;
+  --red-light: #f55c42;
+  --soft-black: #1f1f1f;
+  --line-color: #77777a;
+
+  // Borders
+  --border-radius: 1.5rem;
+  --default-padding: 3.5rem;
+}

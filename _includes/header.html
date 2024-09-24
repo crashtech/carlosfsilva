@@ -1,0 +1,20 @@
+<section id="header">
+  <figure>
+    <a name="home"></a>
+    <span class="text-red">C</span><span>arlos</span>
+    <span class="text-red">S</span><span>ilva</span>
+  </figure>
+  <nav>
+    <a href="#home">Home</a>
+    {%- for section in include.sections -%}
+      {%- if section.title -%}
+        {% assign basename = section.name | remove: '.html' %}
+        <a href="#{{ basename }}">{{ section.title }}</a>
+      {%- endif -%}
+    {%- endfor -%}
+  </nav>
+  <a href="mailto:me@carlosfsilva.com?subject=Invite to join &lt;your_company&gt;" class="button outline">
+    Hire Me
+    {% include icon.html name="handshake" class="right" %}
+  </a>
+</section>

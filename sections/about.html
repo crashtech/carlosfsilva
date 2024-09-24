@@ -1,0 +1,155 @@
+---
+order: 1
+title: About
+---
+<div id="skills" class="block">
+  <h3>Skills</h3>
+
+  <button type="button" class="expand" onclick="expandAbout()">
+    {% include icon.html name="chevron" class="center" %}
+  </button>
+
+  {% for area in site.data.skills %}
+    <hr />
+    <h4>{{ area.title }}</h4>
+
+    <dl class="skills">
+      {% for skill in area.items %}
+        <dt>{{ skill.name }}</dt>
+        <dd title="Rank {{ skill.rank }} of 5">
+          {% include stars.html value=skill.rank %}
+        </dd>
+      {% endfor %}
+    </dl>
+  {% endfor %}
+</div>
+
+<div id="languages" class="block">
+  <h3>Languages</h3>
+
+  <dl class="skills">
+    <dt>Portuguese</dt><dd title="Native">{% include stars.html value=5 %}</dd>
+    <dt>Englissh</dt><dd title="Fluent">{% include stars.html value=5 %}</dd>
+    <dt>Spanish</dt><dd title="Basic">{% include stars.html value=2 %}</dd>
+    <dt>German</dt><dd title="Basic">{% include stars.html value=1 %}</dd>
+  </dl>
+</div>
+
+<div id="experiences" class="block">
+  <h3>Experiences</h3>
+
+  <button class="expand" onclick="expandAbout()">
+    {% include icon.html name="chevron" class="center" %}
+  </button>
+
+  {% for experience in site.data.experiences %}
+    {% assign key = 'experience-' | append: forloop.index %}
+    <hr />
+    <a href="javascript:void(0);" class="article" onclick="document.getElementById('{{ key }}').showModal()">
+      <time>{{ experience.from }} - {{ experience.to }}</time>
+      <header>{{ experience.position }}</header>
+      <div class="subtitle">{{ experience.company }}</div>
+      <p>
+        {% for tech in experience.technologies %}
+          <span class="tag">{{ tech }}</span>
+        {% endfor %}
+      </p>
+    </a>
+
+    <dialog id="{{ key }}" aria-labelledby="{{ experience.position }} at {{ experience.company }}">
+      <button type="button" class="close" onclick="document.getElementById('{{ key }}').close()">X</button>
+      <section class="content">
+        <article>
+          <time>{{ experience.from }} - {{ experience.to }}</time>
+          <header>{{ experience.position }}</header>
+          <div class="subtitle">{{ experience.company }}</div>
+          <h5>Description</h5>
+          {{ experience.description | markdownify }}
+          <h5>Technologies</h5>
+          <p>
+            {% for tech in experience.technologies %}
+              <span class="tag">{{ tech }}</span>
+            {% endfor %}
+          </p>
+        </article>
+      </section>
+    </dialog>
+  {% endfor %}
+</div>
+
+<div id="education" class="block">
+  <h3>Education</h3>
+
+  {% for education in site.data.education %}
+    {% assign key = 'education-' | append: forloop.index %}
+    <hr />
+    <a href="javascript:void(0);" class="article" onclick="document.getElementById('{{ key }}').showModal()">
+      <time>{{ education.from }} - {{ education.to }}</time>
+      <header>{{ education.course }}</header>
+      <div class="subtitle">
+        <span class="right">
+          GPA: {{ education.gpa }}
+          - Credits:
+          {%- if education.display_credits -%}
+            {{ education.display_credits }}
+          {%- else -%}
+            {{ education.credits }}
+          {%- endif -%}
+        </span>
+        {{ education.school }}
+      </div>
+    </a>
+
+    <dialog id="{{ key }}" aria-labelledby="{{ experience.course }}">
+      <button type="button" class="close" onclick="document.getElementById('{{ key }}').close()">X</button>
+      <section class="content">
+        <article>
+          <time>{{ education.from }} - {{ education.to }}</time>
+          <header>{{ education.course }}</header>
+          <div class="subtitle">
+            <span class="right">
+              GPA: {{ education.gpa }}
+              - Credits:
+              {%- if education.display_credits -%}
+                {{ education.display_credits }}
+              {%- else -%}
+                {{ education.credits }}
+              {%- endif -%}
+            </span>
+            {{ education.school }}
+          </div>
+
+          {%- if education.note -%}
+            <blockquote>{{ education.note }}</blockquote>
+          {%- endif -%}
+
+          <table>
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th width="10">Credits</th>
+                <th width="10">Grade</th>
+              </tr>
+            </thead>
+            <tbody>
+              {% for class in education.classes %}
+                <tr>
+                  <td>{{ class.name }}</td>
+                  <td align="right">{{ class.credits }}</td>
+                  <td align="right">{{ class.grade }}</td>
+                </tr>
+              {% endfor %}
+            </tbody>
+            <tfoot>
+              <tr>
+                <td></td>
+                <td align="right">{{ education.credits }}</td>
+                <td align="right">{{ education.gpa }}</td>
+              </tr>
+            </tfoot>
+          </table>
+        </article>
+      </section>
+    </dialog>
+  {% endfor %}
+</div>

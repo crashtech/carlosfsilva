@@ -1,0 +1,19 @@
+dl.skills {
+  gap: 2ex 1ex;
+  display: grid;
+  white-space: nowrap;
+  grid-auto-flow: row;
+  grid-auto-columns: 1fr 2fr;
+
+  &:last-child { margin-bottom: 0; }
+
+  dt {
+    grid-column: 1;
+    font-weight: 500;
+  }
+
+  dd {
+    grid-column: 2;
+    text-align: right;
+  }
+}

@@ -1,0 +1,6 @@
+{% for i in (1..(include.value)) %}
+  {% include icon.html name="star" class="center text-yellow" %}
+{% endfor %}
+{% for i in ((include.value)..4) %}
+  {% include icon.html name="star" class="center" %}
+{% endfor %}

@@ -1,0 +1,83 @@
+---
+order: 0
+---
+<div id="profile" class="block">
+  <img src="{{ 'assets/images/profile.jpg' | relative_url }}" alt="Carlos Silva">
+  <h1>Carlos Silva</h1>
+  <h5>Lead Full-Stack Engineer</h5>
+  <nav>
+    <a href="https://github.com/crashtech" target="_blank" class="icon button outline" title="GitHub">
+      {% include icon.html name="github" class="center" %}
+    </a>
+    <a href="https://www.linkedin.com/in/carlinhusfsilva/?locale=en_US" target="_blank" class="icon button outline" title="LinkedIN">
+      {% include icon.html name="linkedin" class="center" %}
+    </a>
+    <a href="https://ruby.social/@crashtech" target="_blank" class="icon button outline" title="Mastodon">
+      {% include icon.html name="mastodon" class="center" %}
+    </a>
+    <a href="https://stackoverflow.com/users/7321983/carlos-silva" target="_blank" class="icon button outline" title="StackOverflow">
+      {% include icon.html name="stackoverflow" class="center" %}
+    </a>
+  </nav>
+</div>
+
+<div id="intro" class="block">
+  <h4>I'm Carlos Silva, Lead Engineer Full Stack.</h4>
+  <p>
+    Results-oriented web developer with 17 years of software
+    development experience, specializing in Ruby for the past 8 years.
+    Contributed to 30 projects of varying scales, demonstrating adaptability
+    and a fervent commitment to programming excellence. Adept at
+    maintaining two open-source projects, showcasing a passion for
+    innovation and rapid learning
+  </p>
+  <p>
+    Proven track record in maintaining two open-source projects,
+    embodying a commitment to innovation and continuous learning.
+  </p>
+  <div class="spaced">
+    <a href="https://drive.google.com/file/d/1EtpF6vjrKG95uPvU2xqHmKSWZftI5I0d/view?usp=drive_link" target="_blank" class="button">
+      Download CV
+      {% include icon.html name="download" class="right small" %}
+    </a>
+    <button type="button" class="button" onclick="document.getElementById('intro-video').showModal()">
+      Watch Intro Video
+      {% include icon.html name="play" class="right small" %}
+    </button>
+  </div>
+
+  <dialog id="intro-video" aria-labelledby="My Intro Video" aria-describedby="A brief video that covers my experiences">
+    <iframe src="https://www.youtube.com/embed/xain6RLG0Ws?si=HBq_wbGA7JdFLDhg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <button type="button" class="close" onclick="document.getElementById('intro-video').close()">X</button>
+  </dialog>
+</div>
+
+<nav id="technologies" class="block">
+  <span title="Ruby">
+    {% include icon.html name="ruby" class="center" %}
+  </span>
+  <span title="PostgreSQL">
+    {% include icon.html name="postgresql" class="center" %}
+  </span>
+  <span title="GraphQL">
+    {% include icon.html name="graphql" class="center" %}
+  </span>
+  <span title="React">
+    {% include icon.html name="react" class="center" %}
+  </span>
+  <span title="JavaScript">
+    {% include icon.html name="javascript" class="center" %}
+  </span>
+  <span title="HTML5">
+    {% include icon.html name="html5" class="center" %}
+  </span>
+  <span title="CSS3">
+    {% include icon.html name="css3" class="center" %}
+  </span>
+  <span title="NodeJS">
+    {% include icon.html name="nodejs" class="center" %}
+  </span>
+  <span title="OpenAI">
+    {% include icon.html name="openai" class="center" %}
+  </span>
+</nav>

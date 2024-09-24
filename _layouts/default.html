@@ -1,0 +1,30 @@
+---
+layout: vendor/compress
+---
+
+<!DOCTYPE html>
+<html lang="en-US">
+  {%- include head.html -%}
+  <body>
+    <a name="home"></a>
+    {%- assign sections = site.pages | where: "dir", "/sections/" | sort: 'order' -%}
+    {%- include header.html sections=sections -%}
+
+    {%- for section in sections -%}
+      {%- assign basename = section.name | remove: '.html' -%}
+      {%- if section.title -%}
+        <h2>
+          <a name="{{ basename }}"></a>
+          {{ section.title }}
+        </h2>
+      {%- endif -%}
+      <section id="{{ basename }}" class="content">
+        {%- capture content -%}
+          {%- include_relative {{ section.path }} -%}
+        {%- endcapture -%}
+
+        {{ content | split: "---" | last }}
+      </section>
+    {%- endfor -%}
+  </body>
+</html>

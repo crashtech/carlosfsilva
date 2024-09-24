@@ -1,0 +1,65 @@
+h1, h2, h3, h4, h5, h6 {
+  margin: 1em 0;
+  padding: 0;
+  line-height: var(--heading-line-height);
+  font-weight: 600;
+  color: var(--white);
+
+  &:first-child { margin-top: 0; }
+}
+
+h1 {
+  font-size: var(--font-size-7);
+  text-align: center;
+}
+
+h2 {
+  font-size: var(--font-size-6);
+  text-align: center;
+  font-weight: 800;
+}
+
+h3 {
+  font-size: var(--font-size-5);
+  text-align: center;
+}
+
+h4 {
+  font-size: var(--font-size-4);
+  font-weight: 500;
+}
+
+h5 {
+  font-size: var(--font-size-3);
+}
+
+h6 {
+  font-size: var(--font-size-2);
+}
+
+p {
+  &:first-child { margin-top: 0; }
+  &:last-child { margin-bottom: 0; }
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-red {
+  color: var(--red);
+}
+
+.text-yellow {
+  color: var(--yellow);
+}
+
+p.constrainted {
+  max-width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}

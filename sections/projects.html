@@ -1,0 +1,72 @@
+---
+order: 2
+title: Projects
+---
+<div id="gallery" class="block">
+  <p class="text-center constrainted">
+    Check out some of my projects, meticulously crafted with love and dedication,
+    each one reflecting the passion and soul I poured into every detail.
+  </p>
+  <nav>
+    {% for project in site.data.projects %}
+      {% if project.link %}
+        <a href="{{ project.link }}" target="_blank">
+          <figure>
+            {% if project.open_source %}
+              <img src="{{ 'assets/images/' | append: project.image | relative_url }}" alt="{{ project.title }}" />
+              <span>Open-Source</span>
+            {% endif %}
+          </figure>
+
+          <div>
+            {% include icon.html name="arrow" class="right" %}
+            {{ project.title }}
+          </div>
+        </a>
+      {% else %}
+        {% assign key = 'project-' | append: forloop.index %}
+        <a href="javascript:void(0);" onclick="document.getElementById('{{ key }}').showModal()">
+          <figure>
+            <img src="{{ 'assets/images/' | append: project.image | relative_url }}" alt="{{ project.title }}" />
+          </figure>
+
+          <div>
+            {% include icon.html name="arrow" class="right" %}
+            {{ project.title }}
+          </div>
+        </a>
+
+        <dialog id="{{ key }}" aria-labelledby="{{ project.position }} at {{ project.title }}">
+          <button type="button" class="close" onclick="document.getElementById('{{ key }}').close()">X</button>
+          <section class="content">
+            <article>
+              <time>{{ project.from }} - {{ project.to }}</time>
+              <header>{{ project.position }}</header>
+              <div class="subtitle">{{ project.title }}</div>
+              <h5>Description</h5>
+              {{ project.description | markdownify }}
+              <h5>Technologies</h5>
+              <p>
+                {% for tech in project.technologies %}
+                  <span class="tag">{{ tech }}</span>
+                {% endfor %}
+              </p>
+            </article>
+          </section>
+        </dialog>
+      {% endif %}
+    {% endfor %}
+  </nav>
+</div>
+
+<div id="articles" class="block">
+  <h3>Articles</h3>
+
+  {% for article in site.data.articles %}
+    <hr />
+    <a href="{{ article.link }}" target="_blank" class="article">
+      <time>{{ article.date }}</time>
+      <header>{{ article.title }}</header>
+    </a>
+  {% endfor %}
+</div>

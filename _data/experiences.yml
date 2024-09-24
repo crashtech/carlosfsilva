@@ -1,0 +1,203 @@
+---
+- company: CTech Web Software
+  position: Founder - Lead Full-Stack Engineer
+  from: June 2017
+  to: Present
+  technologies:
+    - Ruby on Rails
+    - PostgreSQL
+    - React
+    - JavaScript
+    - MySQL
+    - GraphQL
+    - Hotwire
+    - HTML
+    - CSS
+    - SCSS
+    - LESS
+    - CRuby
+    - Vue.js
+    - Git
+    - ChatGPT
+    - Stripe
+    - Twilio
+    - "many others ..."
+  description: >-
+    Enabling global success through remote collaboration with international companies,
+    I've excelled in maintaining applications, troubleshooting bugs, enhancing performance,
+    and spearheading the development of applications from inception.
+    Engaging in a diverse array of 27 projects, including 7 long-term endeavors,
+    I've consistently delivered high-quality solutions while embracing the challenges of remote work.
+
+- company: Move2 The Next Level
+  position: Full-stack Web Developer
+  from: September 2015
+  to: June 2017
+  technologies:
+    - HTML/CSS
+    - Ruby on Rails
+    - MySQL
+    - Git
+    - Angular
+    - PostgreSQL
+    - Adobe Photoshop
+    - UX/UI Design
+    - VB.NET
+  description: >-
+    Worked with a diversity of projects, languages, and infrastructures.
+    Created websites and systems for startups.
+    Managed tasks with Scrum.
+    Created an SDK for an application that applies assessments to users.
+    Made content recommendations with high performance and several live triggers.
+
+- company: Folha de São Paulo
+  position: PHP Programmer
+  from: March 2015
+  to: August 2015
+  technologies:
+    - HTML/CSS
+    - PHP
+    - jQuery
+    - Git
+    - Oracle
+    - JavaScript
+  description: >-
+    Developed and maintained some of the systems of the company.
+    Suggested improvements for both the back-end and front-end.
+    Worked together with the end-user to raise requirements.
+    Migrated reports from a legacy application to a new one.
+    Accessed the Oracle database to transfer complex queries to the PHP application.
+
+- company: CTech Softwares
+  position: Independent Consultant
+  from: April 2014
+  to: March 2015
+  technologies:
+    - HTML/CSS
+    - PHP
+    - jQuery
+    - Git
+    - PostgreSQL
+    - Zend Framework
+    - Bootstrap
+    - JavaScript
+    - UX/UI Design
+    - Mobile App Development
+  description: >-
+    Worked on some national and international projects mainly for the web.
+    Developed stores and institutional websites.
+    Managed and raised the requirements for projects.
+    Advised on products about user experience and better practices.
+    Gave classes about the web and web development.
+
+- company: Maua Institute of Technology
+  position: Development Analyst
+  from: September 2012
+  to: April 2014
+  technologies:
+    - Ruby
+    - HTML/CSS
+    - PHP
+    - jQuery
+    - MySQL
+    - Git
+    - Scrum
+    - JavaScript
+    - Adobe Photoshop
+    - UX/UI Design
+  description: >-
+    Managed the software development area.
+    Created a new tool to assist in purchases made within the company.
+    Handled and was responsible for planning, aligning requirements, presentations, meetings, scheduling, training, and supporting users.
+    Built a framework to assist in the development of all different types of software.
+    Developed applications for external clients.
+
+- company: Agência YEP!
+  position: Web Master
+  from: June 2011
+  to: July 2012
+  technologies:
+    - HTML/CSS
+    - PHP
+    - jQuery
+    - MySQL
+    - JavaScript
+    - Adobe Photoshop
+  description: >-
+    Participated in projects of many other companies.
+    Developed websites and systems for different customers.
+    Advised on projects about user experience and best practices.
+    Created layouts and interfaces for web applications.
+    Built a framework and tool to manage the company's communications.
+
+- company: Telefonica
+  position: System Analyst
+  from: June 2010
+  to: June 2011
+  technologies:
+    - HTML/CSS
+    - Java
+    - Oracle
+    - ShellScript
+    - JavaScript
+  description: >-
+    Analyzed and developed solutions to the Telefonica online account tool.
+    Studied and was taught about Java applications.
+    Created batch processes to provide online bills.
+    Developed reports and high-availability live overviews.
+    Ensured the availability of the bills and manually processing data, whenever it was needed.
+
+- company: Akna
+  position: PHP Programmer
+  from: February 2010
+  to: June 2010
+  technologies:
+    - HTML/CSS
+    - PHP
+    - jQuery
+    - MySQL
+    - JavaScript
+  description: >-
+    Developed and maintained PHP applications.
+    Coded in JavaScript and created jQuery plugins.
+    Manipulated databases to meet application needs.
+    Analyzed the difficulty and time to complete activities.
+    Participated in activity planning meets.
+
+- company: KMC Sites
+  position: Web Designer
+  from: February 2009
+  to: February 2010
+  technologies:
+    - Ruby
+    - HTML/CSS
+    - PHP
+    - Ruby on Rails
+    - jQuery
+    - MySQL
+    - Adobe Photoshop
+  description: >-
+    Created the visual art (layout) of websites.
+    Coded systems to manage the content of websites.
+    Created 3D images for advertising and event planning.
+    Trained customers to use the tools developed for them.
+    Created and maintained databases.
+
+- company: Landcom
+  position: Computer Analyst
+  from: February 2006
+  to: September 2008
+  technologies:
+    - HTML/CSS
+    - PHP
+    - Microsoft Access
+    - JDBC
+    - VB6
+    - JavaScript
+    - Microsoft SQL Server
+  description: >-
+    Maintained and installed computer equipment.
+    Created and maintained databases.
+    Supported the creation of the company's management system.
+    Created visual arts for the company's advertising.
+    Coded the company's website as well as websites for local game servers.

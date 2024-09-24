@@ -1,0 +1,78 @@
+---
+- school: Westcliff University
+  course: Bachelor of Science in Information Technology
+  from: June 2020
+  to: August 2021
+  credits: 45
+  gpa: 3.38
+  display_credits: 120
+  note: "75 Credits transferred from Associate Degree in Information Technology"
+  classes:
+    - { credits: "3.0", grade: "A", name: "Concepts of Macroeconomics" }
+    - { credits: "3.0", grade: "A", name: "Physical Geography" }
+    - { credits: "3.0", grade: "B-", name: "The Essentials of Entrepreneurship" }
+    - { credits: "3.0", grade: "B", name: "Foundations of Business" }
+    - { credits: "3.0", grade: "B-", name: "Human Geography" }
+    - { credits: "3.0", grade: "B+", name: "Concepts of Microeconomics" }
+    - { credits: "3.0", grade: "C", name: "Human Civilizations" }
+    - { credits: "3.0", grade: "B-", name: "Introduction to Business Research" }
+    - { credits: "3.0", grade: "A", name: "Applied Statistics for Optimization" }
+    - { credits: "3.0", grade: "A", name: "Discrete Mathematics" }
+    - { credits: "3.0", grade: "A", name: "Data Programming Concepts" }
+    - { credits: "3.0", grade: "A", name: "Knowledge Discovery and Data Science" }
+    - { credits: "3.0", grade: "A", name: "Big Data Analytics" }
+    - { credits: "3.0", grade: "B+", name: "Capstone Project" }
+    - { credits: "3.0", grade: "B", name: "Artificial Intelligence" }
+
+- school: University of Massachusetts Lowell
+  course: Information Technology
+  from: March 2018
+  to: August 2018
+  credits: 21
+  gpa: 3.75
+  classes:
+    - { credits: "3.0", grade: "A", name: "Comp.Graphics & Illustration" }
+    - { credits: "3.0", grade: "B+", name: "Intro. to Java Web Development" }
+    - { credits: "3.0", grade: "A", name: "Precalculus Mathematics I" }
+    - { credits: "3.0", grade: "B", name: "College Writing I" }
+    - { credits: "3.0", grade: "A", name: "C Programming" }
+    - { credits: "6.0", grade: "A", name: "Project-Based Information Systems" }
+
+- school: Institute Mauá of Technology
+  course: Associate Degree in Information Technology
+  from: February 2011
+  to: December 2013
+  credits: 95
+  gpa: 3.24
+  classes:
+    - { credits: "3.5", grade: "B", name: "E-Marketing" }
+    - { credits: "2.0", grade: "B", name: "Strategic View of Information Systems" }
+    - { credits: "3.5", grade: "A", name: "Communication and Information" }
+    - { credits: "3.5", grade: "B", name: "Data Structure and Database Management" }
+    - { credits: "3.5", grade: "B", name: "Basic Concepts of Information Technology" }
+    - { credits: "3.5", grade: "B", name: "Mathematics" }
+    - { credits: "3.5", grade: "A", name: "Basic Informatics" }
+    - { credits: "2.0", grade: "A", name: "Statistics" }
+    - { credits: "2.0", grade: "B", name: "Law" }
+    - { credits: "3.5", grade: "B", name: "General Accounting" }
+    - { credits: "3.5", grade: "B", name: "People Management" }
+    - { credits: "2.0", grade: "A", name: "Information Technology Applied to Management I" }
+    - { credits: "2.0", grade: "A", name: "Degree Project" }
+    - { credits: "3.5", grade: "B", name: "Information Technology Infrastructure Management" }
+    - { credits: "3.5", grade: "A", name: "Project Management in Information Systems" }
+    - { credits: "3.5", grade: "B", name: "DW and BI Structures" }
+    - { credits: "3.5", grade: "B", name: "Computers Architecture Lab" }
+    - { credits: "3.5", grade: "B", name: "Environment and Security Management Projects" }
+    - { credits: "2.0", grade: "C", name: "Information Process and Security Quality Management" }
+    - { credits: "2.0", grade: "A", name: "Contracts Management" }
+    - { credits: "3.5", grade: "A", name: "Computer Lab" }
+    - { credits: "3.5", grade: "B", name: "Business Financial Management" }
+    - { credits: "3.5", grade: "C", name: "Applied Logistics" }
+    - { credits: "2.0", grade: "B", name: "Information Technology Applied to Management II" }
+    - { credits: "5.0", grade: "Pass", name: "Complementary Activities" }
+    - { credits: "2.0", grade: "A", name: "Degree Project" }
+    - { credits: "3.5", grade: "A", name: "Information Systems Implementation and People Development" }
+    - { credits: "3.5", grade: "B", name: "Computer Network Lab" }
+    - { credits: "3.5", grade: "B", name: "Basic Network Concept" }
+    - { credits: "3.5", grade: "B", name: "Infrastructure Security" }
+    - { credits: "2.0", grade: "B", name: "Quality Certification and Standards" }

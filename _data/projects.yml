@@ -1,0 +1,42 @@
+---
+- title: Rails GraphQL
+  image: rails-graphql.svg
+  link: https://github.com/virtualshield/rails-graphql
+  open_source: true
+
+- title: Torque PostgreSQL
+  image: torque-pg.svg
+  link: https://github.com/crashtech/torque-postgresql
+  open_source: true
+
+- title: Wefunder
+  image: wefunder.svg
+  from: July 2021
+  to: August 2022
+  position: Lead Full-Stack Engineer
+  technologies:
+    - Ruby
+    - Ruby on Rails
+    - PostgreSQL
+    - ReactJS
+    - VueJS
+    - Electron
+  description: >-
+    Leading the post-funding team.
+    Responsible for coming up with technical solutions to improve the day-to-day routine of the operational members.
+    Implementing, deploying, and training the team on the tools created. Also, assigning tasks to another developer.
+
+- title: Enjoy
+  image: enjoy.svg
+  from: July 2017
+  to: May 2022
+  position: Senior Full-Stack Engineer
+  technologies:
+    - Ruby
+    - Ruby on Rails
+    - PostgreSQL
+    - ReactJS
+    - GraphQL
+  description: >-
+    Engaged in comprehensive engineering across all facets of the platform,
+    I actively enhanced performance across various processes and devised inventive solutions for the implementation of numerous new features.
