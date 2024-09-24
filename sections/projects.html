@@ -13,7 +13,7 @@ title: Projects
         <a href="{{ project.link }}" target="_blank">
           <figure>
             {% if project.open_source %}
-              <img src="{{ 'assets/images/' | append: project.image | relative_url }}" alt="{{ project.title }}" />
+              <img src="{{ '/assets/images/' | append: project.image | relative_url }}" alt="{{ project.title }}" />
               <span>Open-Source</span>
             {% endif %}
           </figure>
@@ -27,7 +27,7 @@ title: Projects
         {% assign key = 'project-' | append: forloop.index %}
         <a href="javascript:void(0);" onclick="document.getElementById('{{ key }}').showModal()">
           <figure>
-            <img src="{{ 'assets/images/' | append: project.image | relative_url }}" alt="{{ project.title }}" />
+            <img src="{{ '/assets/images/' | append: project.image | relative_url }}" alt="{{ project.title }}" />
           </figure>
 
           <div>
