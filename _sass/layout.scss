@@ -46,12 +46,12 @@ section#header {
   margin-right: -2ex;
   color: var(--off-white);
   border-radius: var(--border-radius);
-  background-color: #1f1f1f33;
+  background-color: #1f1f1fe6;
   box-shadow: 0 1ex 4ex rgba(0, 0, 0, 0);
   transition: all .2s;
 
   &:hover {
-    background-color: #1f1f1ff8;
+    background-color: #1f1f1fff;
     box-shadow: 0 1ex 4ex rgba(0, 0, 0, .3);
   }
 
@@ -134,7 +134,7 @@ section#introduction {
       font-size: 1.2rem;
       letter-spacing: 1.2px;
       color: var(--gray);
-      margin: -.5ex 0 4ex;
+      margin: -.8ex 0 6ex;
     }
 
     nav {
