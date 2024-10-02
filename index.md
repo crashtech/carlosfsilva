@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Welcome
+image: "/assets/images/banner.png"
 ---
 
-Hello!
+42 was always the answer!
