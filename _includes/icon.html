@@ -1,4 +1,4 @@
 <svg class="icon {{ include.class }}" viewBox="0 0 16 16" fill="currentColor">
-  {% assign full_path = '/assets/images/icons.svg?1#' | append: include.name %}
+  {% assign full_path = '/assets/images/icons.svg#' | append: include.name %}
   <use xlink:href="{{ full_path | relative_url }}" />
 </svg>
