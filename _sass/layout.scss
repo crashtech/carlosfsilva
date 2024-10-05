@@ -295,7 +295,14 @@ section#projects {
           color: var(--white);
           transform: rotate(-15deg);
           padding: .5ex 10ex .5ex 20ex;
-          background-color: var(--red);
+
+          &.red {
+            background-color: var(--red);
+          }
+
+          &.blue {
+            background-color: var(--blue);
+          }
         }
       }
     }

@@ -12,9 +12,9 @@ title: Projects
       {% if project.link %}
         <a href="{{ project.link }}" target="_blank">
           <figure>
-            {% if project.open_source %}
+            {% if project.label %}
               <img src="{{ '/assets/images/' | append: project.image | relative_url }}" alt="{{ project.title }}" />
-              <span>Open-Source</span>
+              <span class="{{ project.label_color }}">{{ project.label }}</span>
             {% endif %}
           </figure>
 

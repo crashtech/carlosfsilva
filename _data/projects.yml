@@ -2,12 +2,20 @@
 - title: Rails GraphQL
   image: rails-graphql.svg
   link: https://github.com/virtualshield/rails-graphql
-  open_source: true
+  label: Open-Source
+  label_color: red
 
 - title: Torque PostgreSQL
   image: torque-pg.svg
   link: https://github.com/crashtech/torque-postgresql
-  open_source: true
+  label: Open-Source
+  label_color: red
+
+- title: Torque Admin
+  image: torque-admin.svg
+  link: https://github.com/crashtech/torque-admin
+  label: Coming Soon
+  label_color: blue
 
 - title: Wefunder
   image: wefunder.svg
@@ -25,6 +33,20 @@
     Leading the post-funding team.
     Responsible for coming up with technical solutions to improve the day-to-day routine of the operational members.
     Implementing, deploying, and training the team on the tools created. Also, assigning tasks to another developer.
+
+- title: Hired
+  image: hired.svg
+  from: April 2017
+  to: December 2019
+  position: Senior Full-Stack Engineer
+  technologies:
+    - Ruby
+    - Ruby on Rails
+    - PostgreSQL
+    - ReactJS
+  description: >-
+    Working on the one-to-many integration with ATS systems and providing the proper tools to sync information
+    on both ends and allow companies to run their hiring processes properly.
 
 - title: Enjoy
   image: enjoy.svg
