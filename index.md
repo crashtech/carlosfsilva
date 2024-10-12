@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Welcome
+title: Carlos Silva
 image: "/assets/images/banner.png"
 ---
 
