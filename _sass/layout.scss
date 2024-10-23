@@ -35,6 +35,20 @@ body {
   }
 }
 
+@keyframes header-scroll {
+  from {
+    backdrop-filter: blur(0px) brightness(100%);
+    background-color: #1f1f1f00;
+    box-shadow: rgba(0, 0, 0, 0.0) 0 0 0 0;
+  }
+
+  to {
+    backdrop-filter: blur(6px) brightness(60%);
+    background-color: #1f1f1f80;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 4px 20px 0px;
+  }
+}
+
 section#header {
   top: 1ex;
   gap: 2ex;
@@ -46,14 +60,11 @@ section#header {
   margin-right: -2ex;
   color: var(--off-white);
   border-radius: var(--border-radius);
-  background-color: #1f1f1fe6;
-  box-shadow: 0 1ex 4ex rgba(0, 0, 0, 0);
-  transition: all .2s;
 
-  &:hover {
-    background-color: #1f1f1fff;
-    box-shadow: 0 1ex 4ex rgba(0, 0, 0, .3);
-  }
+  animation-fill-mode: forwards;
+  animation-name: header-scroll;
+  animation-timeline: scroll();
+  animation-range: 2rem calc(2rem + 80px);
 
   figure {
     cursor: default;

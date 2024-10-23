@@ -24,7 +24,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Passionate software developer with vast experience in web development.
   Solving riddles and developing things is what I love to do.
 
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://carlosfsilva.com"
 github_username: crashtech
 
