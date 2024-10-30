@@ -44,17 +44,19 @@ dialog {
 
   &::backdrop {
     background-color: rgba(0, 0, 0, .5);
+    backdrop-filter: blur(0px) brightness(100%);
+    transition: backdrop-filter .1s;
   }
-}
 
-body {
-  transition: filter .1s;
-}
+  &[open]::backdrop {
+    backdrop-filter: blur(.3rem) brightness(80%);
+  }
 
-body {
-  filter: blur(0px);
-}
+  a {
+    color: inherit;
+  }
 
-body:has(dialog[open]) {
-  filter: blur(.3rem);
+  em {
+    font-weight: 200;
+  }
 }

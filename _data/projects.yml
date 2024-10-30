@@ -17,8 +17,32 @@
   label: Coming Soon
   label_color: blue
 
+- title: Infield.ai
+  image: infield.svg
+  website: https://infield.ai/
+  from: April 2023
+  to: June 2024
+  position: Staff Full-Stack Engineer
+  technologies:
+    - Ruby
+    - Ruby on Rails
+    - PostgreSQL
+    - StimulusJS
+    - OpenAI
+    - OSS
+    - Python
+    - Node
+    - Algorithms
+  description: >-
+    Responsible for researching and Implementing the platform's dependency resolution algorithm, which was based on
+    [PubGrub](https://nex3.medium.com/pubgrub-2fb6470504f). Implementing all sorts of features around the platform,
+    from the frontend to the backend. Helping in the open-source initiatives and the company, such as
+    [gemcompat](https://github.com/infieldai/gemcompat). Participated in the hiring process, the onboarding of new team
+    members, and mentoring of a Junior engineer.
+
 - title: Wefunder
   image: wefunder.svg
+  website: https://wefunder.com/
   from: July 2021
   to: August 2022
   position: Lead Full-Stack Engineer
@@ -36,6 +60,7 @@
 
 - title: Hired
   image: hired.svg
+  website: https://hired.com/
   from: April 2017
   to: December 2019
   position: Senior Full-Stack Engineer
@@ -48,17 +73,20 @@
     Working on the one-to-many integration with ATS systems and providing the proper tools to sync information
     on both ends and allow companies to run their hiring processes properly.
 
-- title: Enjoy
-  image: enjoy.svg
-  from: July 2017
-  to: May 2022
-  position: Senior Full-Stack Engineer
-  technologies:
-    - Ruby
-    - Ruby on Rails
-    - PostgreSQL
-    - ReactJS
-    - GraphQL
-  description: >-
-    Engaged in comprehensive engineering across all facets of the platform,
-    I actively enhanced performance across various processes and devised inventive solutions for the implementation of numerous new features.
+
+    _This company has been acquired by the LHH Recruitment Solutions company._
+
+# - title: Enjoy
+#   image: enjoy.svg
+#   from: July 2017
+#   to: May 2022
+#   position: Senior Full-Stack Engineer
+#   technologies:
+#     - Ruby
+#     - Ruby on Rails
+#     - PostgreSQL
+#     - ReactJS
+#     - GraphQL
+#   description: >-
+#     Engaged in comprehensive engineering across all facets of the platform,
+#     I actively enhanced performance across various processes and devised inventive solutions for the implementation of numerous new features.
