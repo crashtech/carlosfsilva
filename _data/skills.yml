@@ -64,8 +64,6 @@
       rank: 5
     - name: CSS3
       rank: 5
-    - name: CSS3
-      rank: 5
     - name: HTTP
       rank: 5
     - name: Sass/Scss
@@ -86,8 +84,6 @@
 - title: Tools
   items:
     - name: Git/GitHub
-      rank: 5
-    - name: Stripe
       rank: 5
     - name: Apache
       rank: 5
