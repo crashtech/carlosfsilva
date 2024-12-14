@@ -18,16 +18,144 @@
     - CRuby
     - Vue.js
     - Git
-    - ChatGPT
+    - OpenAI
     - Stripe
     - Twilio
     - "many others ..."
+  about: >-
+    CTECH Web Software is a boutique web development firm focusing on helping organizations grow.
+    Main service offering is spearheading product development from inception, troubleshooting bugs,
+    enhancing performance and maintaining applications through continuous improvement.
   description: >-
-    Enabling global success through remote collaboration with international companies,
-    I've excelled in maintaining applications, troubleshooting bugs, enhancing performance,
-    and spearheading the development of applications from inception.
-    Engaging in a diverse array of 27 projects, including 7 long-term endeavors,
-    I've consistently delivered high-quality solutions while embracing the challenges of remote work.
+    Owner/operator of boutique web development firm with international client base. Built client base of 27 clients
+    (including 7 long-term engagements) over 7 years. Customer acquisition from both word-of-mouth and direct contact
+    from freelance networks. Delivered high-quality solutions while managing complexities of global remote work,
+    including staff acquisition, training, evaluation, goalsetting, coaching, and if not the right person, termination.
+    Managed global staff of 7.
+
+- company: Infield
+  position: Lead Ruby on Rails Engineer
+  from: April 2023
+  to: May 2024
+  technologies:
+    - Ruby on Rails
+    - Python
+    - Go
+    - PostgreSQL
+    - JavaScript
+    - NodeJs
+    - Hotwire
+    - HTML
+    - CSS
+    - Tailwind
+    - Git
+    - OpenAI
+    - Algorithms
+  about: >-
+    Infield was founded in 2022 to provide a solution for open-source software maintenance.
+    Its automated upgrade management system, Upgrade Path, unblocks engineers from the never-ending work of ordering
+    and releasing upgrades, freeing them to spend more time on feature development.
+  description: >-
+    Responsible for researching and implementing the platform's dependency resolution algorithm,
+    which was based on PubGrub. Implementing all sorts of features around the platform,
+    from the frontend to the backend. Helping in the open-source initiatives of the company, such as gemcompat.
+    Participated in the hiring process, the onboarding of new team members, and mentoring of a junior engineer.
+
+- company: Wefunder
+  position: Lead Ruby on Rails Engineer
+  from: July 2021
+  to: August 2022
+  technologies:
+    - Ruby on Rails
+    - PostgreSQL
+    - HTML
+    - CSS
+    - Git
+    - GitHub
+    - React
+    - Leadership
+    - JavaScript
+    - Mentoring
+    - Project planning
+    - Electron
+    - Vue.js
+  about: >-
+    Wefunder is an online service that allows individual investors to crowdfund startup companies.
+    Wefunder uses a provision in the 2012 JOBS Act that allows unaccredited investors to purchase equity in
+    early-stage private companies.
+  description: >-
+    Led the post-funding engineering team. Responsible for developing technical solutions to
+    problems faced by post-funding team members. Implemented, deployed, and trained the team on the new tools created.
+
+- company: VirtualShield
+  position: Lead Full-Stack Developer
+  from: May 2020
+  to: July 2021
+  technologies:
+    - Ruby on Rails
+    - PostgreSQL
+    - TypeScript
+    - React
+    - GraphQL
+    - HTML
+    - CSS
+    - Git
+    - Leadership
+    - JavaScript
+    - Mentoring
+    - Project planning
+    - Solution Architecture
+  about: >-
+    VirtualShield is a VPN (virtual private network) and digital security service that supplies users with a safe,
+    secure, and private browsing experience.
+  description: >-
+    Architected and built the next generation of the company's main system. Coordinated the mobile and
+    desktop apps integration and worked with VPN servers and Experian to protect personal information.
+    My open-source Rails GraphQL project was a suggestion embraced by the client. Boosted fulfillment on
+    Diplomatic Security Service accounts in record times.
+
+- company: Hired
+  position: Senior Full-Stack Developer
+  from: September 2018
+  to: December 2019
+  technologies:
+    - Ruby on Rails
+    - PostgreSQL
+    - TypeScript
+    - React
+    - JavaScript
+    - Redux
+    - HTML
+    - CSS
+    - Git
+    - API Integration
+    - Calendar Management
+  about: >-
+    Hired, LLC was an online Applicant Tracking Software that was acquired by
+    LHH Recruitment Systems (Part of Adecco Group) on June 14, 2024.
+  description: >-
+    Worked on a one-to-many integration with Applicant Tracking Systems and provided the proper tools to sync
+    information on both ends in order allow companies to run their hiring processes seamlessly.
+
+- company: Brickfloor
+  position: Senior Full-Stack Developer
+  from: April 2017
+  to: February 2018
+  technologies:
+    - Ruby on Rails
+    - PostgreSQL
+    - HTML
+    - CSS
+    - Git
+    - Leadership
+    - Application Architecture
+    - Project planning
+  about: >-
+    Brickfloor is an Australian real estate company recently recognized as most innovative PropTech of the Year (2021)
+    & Emerging FinTech of the Year Finalist (2020 & 2021).
+  description: >-
+    Built a prototype Rails application from scratch to manage home sales negotiations. Worked directly with the CEO
+    to turn requirements into features while providing estimates and guidance about best practices.
 
 - company: Move2 The Next Level
   position: Full-stack Web Developer

@@ -17,6 +17,8 @@
       rank: 3
     - name: Python
       rank: 2
+    - name: Go
+      rank: 1
     - name: VB6 (VBA)
       rank: 3
     - name: VB.NET
@@ -38,6 +40,8 @@
       rank: 5
     - name: VueJS
       rank: 5
+    - name: Electron
+      rank: 2
     - name: Bootstrap
       rank: 5
     - name: Tailwind
@@ -95,6 +99,8 @@
       rank: 4
     - name: Stripe
       rank: 5
+    - name: ChargeBee
+      rank: 4
     - name: Mailchimp
       rank: 3
     - name: Figma

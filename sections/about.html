@@ -64,6 +64,12 @@ title: About
           <time>{{ experience.from }} - {{ experience.to }}</time>
           <header>{{ experience.position }}</header>
           <div class="subtitle">{{ experience.company }}</div>
+          {%- if experience.about -%}
+            <blockquote>
+              <p><b>About</b></p>
+              {{ experience.about | markdownify }}
+            </blockquote>
+          {%- endif -%}
           <h5>Description</h5>
           {{ experience.description | markdownify }}
           <h5>Technologies</h5>

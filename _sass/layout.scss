@@ -101,6 +101,10 @@ section#header {
     margin-left: 0;
     align-self: center;
     text-decoration: none;
+
+    svg.icon {
+      vertical-align: middle;
+    }
   }
 }
 
