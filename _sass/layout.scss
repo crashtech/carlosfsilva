@@ -129,6 +129,18 @@ section#introduction {
     border-bottom: 1px solid var(--line-color);
   }
 
+  div#intro h4 {
+    position: relative;
+
+    > small {
+      left: 3.6em;
+      bottom: -8px;
+      color: var(--gray);
+      font-size: var(--font-size-1);
+      position: absolute;
+    }
+  }
+
   div#profile {
     display: flex;
     align-items: center;

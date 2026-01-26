@@ -40,6 +40,8 @@
       rank: 5
     - name: VueJS
       rank: 5
+    - name: React Native
+      rank: 3
     - name: Electron
       rank: 2
     - name: Bootstrap
@@ -131,3 +133,12 @@
       rank: 5
     - name: Asana
       rank: 4
+
+- title: Cloud Platforms
+  items:
+    - name: AWS
+      rank: 4
+    - name: GCP
+      rank: 3
+    - name: Azure
+      rank: 3
