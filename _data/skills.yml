@@ -25,6 +25,8 @@
       rank: 3
     - name: Java
       rank: 2
+    - name: Zig
+      rank: 1
 
 - title: Frameworks
   items:
@@ -51,6 +53,8 @@
     - name: Semantic UI
       rank: 5
     - name: Material UI
+      rank: 3
+    - name: Bulma
       rank: 3
 
 - title: Databases
@@ -82,8 +86,6 @@
       rank: 5
     - name: Regular Expressions
       rank: 5
-    - name: OpenAI
-      rank: 4
     - name: WebSocket
       rank: 3
 
@@ -99,11 +101,15 @@
       rank: 4
     - name: Postman
       rank: 4
+    - name: OpenAI
+      rank: 4
     - name: Stripe
       rank: 5
     - name: ChargeBee
       rank: 4
     - name: Mailchimp
+      rank: 3
+    - name: Twilio
       rank: 3
     - name: Figma
       rank: 3
@@ -134,8 +140,12 @@
     - name: Asana
       rank: 4
 
-- title: Cloud Platforms
+- title: Hosting Platforms
   items:
+    - name: Self-Hosting
+      rank: 4
+    - name: Heroku
+      rank: 4
     - name: AWS
       rank: 4
     - name: GCP

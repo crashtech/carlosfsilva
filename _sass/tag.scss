@@ -1,13 +1,17 @@
 .tag {
   cursor: default;
-  font-size: .8rem;
-  margin: .5ex 1ex;
-  padding: .75ex 1.5ex;
-  border-radius: .5rem;
+  font-size: 0.8em;
+  margin: 0.5ex 1ex;
+  padding: 0.75ex 1.5ex;
+  border-radius: 0.5rem;
   display: inline-block;
   background-color: #141414;
 
   + .tag,
-  &:first-child { margin-left: 0; }
-  &:last-child { margin-right: 0; }
+  &:first-child {
+    margin-left: 0;
+  }
+  &:last-child {
+    margin-right: 0;
+  }
 }
