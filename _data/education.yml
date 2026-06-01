@@ -1,5 +1,5 @@
 ---
-- school: The University of York UK
+- school: The University of York - UK
   course: Master of Science in Computer Science
   from: March 2026
   to: Present
@@ -7,7 +7,7 @@
   gpa: "--"
   note: "Pursuing Master of Science in Computer Science"
 
-- school: Westcliff University
+- school: Westcliff University - USA
   course: Bachelor of Science in Information Technology
   from: June 2020
   to: August 2021
@@ -32,7 +32,7 @@
     - { credits: "3.0", grade: "B+", name: "Capstone Project" }
     - { credits: "3.0", grade: "B", name: "Artificial Intelligence" }
 
-- school: University of Massachusetts Lowell
+- school: University of Massachusetts Lowell - USA
   course: Information Technology
   from: March 2018
   to: August 2018
@@ -46,7 +46,7 @@
     - { credits: "3.0", grade: "A", name: "C Programming" }
     - { credits: "6.0", grade: "A", name: "Project-Based Information Systems" }
 
-- school: Institute Mauá of Technology
+- school: Institute Mauá of Technology - Brazil
   course: Associate Degree in Information Technology
   from: February 2011
   to: December 2013

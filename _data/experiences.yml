@@ -33,6 +33,46 @@
     including staff acquisition, training, evaluation, goal setting, coaching, and if not the right person, termination.
     Managed global staff of 7.
 
+- company: CodePath.org
+  position: Lead Engineer
+  from: November 2025
+  to: February 2026
+  technologies:
+    - Ruby
+    - Padrino
+    - OpenSource
+    - PostgreSQL
+    - HAML
+    - Git
+  about: >-
+    CodePath is a nonprofit organization dedicated to providing free software engineering courses and career support to
+    underrepresented college students.
+  description: >-
+    Spearheaded the upgrade and architectural improvement of the Padrino open-source Ruby framework.
+    Optimized and modernized several interconnected microservices to increase system performance, scalability, and
+    maintainability.
+
+- company: Toptal
+  position: Senior Full-Stack Engineer
+  from: December 2024
+  to: September 2025
+  technologies:
+    - Ruby on Rails
+    - GraphQL
+    - API Integration
+    - PostgreSQL
+    - React
+    - JavaScript
+    - HTML
+    - CSS
+    - Tailwind
+    - Git
+  about: >-
+    Toptal is an exclusive global network of top freelance software developers, designers, and business experts.
+  description: >-
+    Maintained and upgraded the Toptal Gear platform utilizing Ruby on Rails, GraphQL, and
+    React. Executed critical bug fixes and systemic enhancements to ensure continuous platform stability and performance.
+
 - company: Infield
   position: Lead Ruby on Rails Engineer
   from: April 2023

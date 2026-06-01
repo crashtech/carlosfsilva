@@ -16,15 +16,17 @@
     - name: Shell Script
       rank: 3
     - name: Python
-      rank: 2
+      rank: 3
     - name: Go
       rank: 1
-    - name: VB6 (VBA)
-      rank: 3
     - name: VB.NET
+      rank: 4
+    - name: VB6 (VBA)
       rank: 3
     - name: Java
       rank: 2
+    - name: Rust
+      rank: 1
     - name: Zig
       rank: 1
 
@@ -87,7 +89,7 @@
     - name: Regular Expressions
       rank: 5
     - name: WebSocket
-      rank: 3
+      rank: 4
 
 - title: Tools
   items:
@@ -101,8 +103,8 @@
       rank: 4
     - name: Postman
       rank: 4
-    - name: OpenAI
-      rank: 4
+    - name: GitHub Actions
+      rank: 3
     - name: Stripe
       rank: 5
     - name: ChargeBee
@@ -120,6 +122,17 @@
     - name: ImageMagick
       rank: 3
 
+- title: AI Tools
+  items:
+    - name: OpenAI
+      rank: 5
+    - name: Gemini
+      rank: 4
+    - name: Claude
+      rank: 3
+    - name: Pi
+      rank: 2
+
 - title: Testing Tools
   items:
     - name: RSpec
@@ -128,6 +141,8 @@
       rank: 4
     - name: JUnit
       rank: 3
+    - name: Playwright
+      rank: 2
 
 - title: Workflow Applications
   items:
